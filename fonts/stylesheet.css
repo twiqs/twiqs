@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Are You Serious';
+    src: url('AreYouSerious-Regular.eot');
+    src: local('Are You Serious Regular'), local('AreYouSerious-Regular'),
+        url('AreYouSerious-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AreYouSerious-Regular.woff2') format('woff2'),
+        url('AreYouSerious-Regular.woff') format('woff'),
+        url('AreYouSerious-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
