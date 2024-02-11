@@ -553,6 +553,7 @@ header {
     color: #587793;
     text-transform: uppercase;
 }
+/* .inspiration */
 .inspiration{
     padding-bottom: 00px;
 }
@@ -583,8 +584,7 @@ header {
     margin: auto;
 }
 
-.inspiration_btn i{
-    background: url(../img/icons/our__btn_icon.svg)no-repeat;
+.inspiration_btn img{
     width: 32px;
     height: 14px;
 }
