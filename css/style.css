@@ -554,9 +554,21 @@ header {
     text-transform: uppercase;
 }
 /* .inspiration */
-.inspiration{
+/* .inspiration{
     padding-bottom: 00px;
+} */
+.inspiration_left{
+    max-width: 504px;
+    padding-left: 30px;
 }
+.inspiration_right{
+    background: url(../img/icons/inspiration_right.jpg) center no-repeat;
+    width: 576px;
+    height: 506px;
+    padding-right: 30px;
+
+}
+
 .inspiration_sub {
     color: #CAF91D;
     text-align: left;
@@ -571,7 +583,9 @@ header {
     text-align: left;
     color: #587793;
 }
-
+.insp_txt{
+    padding-bottom: 30px;
+}
 .inspiration_btn {
     color: #587793 ;
    max-width: 192px;
