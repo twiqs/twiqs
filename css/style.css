@@ -271,3 +271,114 @@ section {
 .gives {
     margin-bottom: 210px;
 }
+
+/* our */
+.our_head {
+	max-width: 772px;
+	margin: auto;
+	margin-bottom: 180px;
+
+}
+
+.our__tit {
+	font-family: Rochester;
+	font-size: 52px;
+	font-weight: 400;
+	line-height: 62px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #CAF91D;
+	margin-bottom: 23px;
+}
+
+.our__btn {
+	align-items: center;
+	float: right;
+	width: 189px;
+	height: 39px;
+	border-radius: 40px;
+	border: 1px solid #587793;
+	color: #587793;
+	padding: 0 28px 0 28px;
+	transition: 0.3s;
+}
+.our__btn:hover{
+	transform: translateX(5px);
+}
+
+.our__btn_icon {
+	width: 32px;
+}
+
+.seller_main {
+	width: 283px;
+	text-align: left;
+}
+
+.seller_tit {
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #587793;
+	margin-bottom: 12px;
+}
+
+.seller_txt {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #CAF91D;
+	max-width: 309px;
+	margin-bottom: 228px;
+}
+
+.seller___btn {
+
+	width: 255px;
+	padding: 9px 28px 0 28px;
+}
+
+.seller___btn_icon {
+	margin-top: 5px;
+}
+
+
+.seller_card {
+	width: 301px;
+	text-align: center;
+	margin-right: 14px;
+}
+
+.seller_card_img {
+	margin-bottom: 20px;
+}
+
+.seller_card__txt {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+	letter-spacing: 0em;
+	color: #587793;
+	margin-bottom: 8px;
+}
+
+.seller_card__tit {
+	font-family: Roboto;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 0em;
+	color: #587793;
+	margin-bottom: 8px;
+}
+
+.our {
+	margin-bottom: 153px;
+}
