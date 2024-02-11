@@ -130,3 +130,51 @@ section {
 	justify-content: space-between;
 }
 
+/* heder */
+
+.header_main {
+	background: #587793;
+	padding: 5px 29px;
+}
+
+
+
+.navigation {
+	margin-right: 508px;
+	margin-top: 12px;
+	width: 288px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	color: #CAF91D;
+	transition: 0.3s;
+}
+
+.navigation_li:hover {
+	transform: scale(1.2);
+}
+
+.header_icons {
+	width: 114px;
+}
+
+.header_icon {
+	width: 55px;
+	transition: 0.3s;
+}
+
+.header_icon:hover {
+	transform: scale(1.2);
+}
+
+.heder_icon__search {
+	/* margin-top: 12px; */
+	transition: 0.3s;
+	width: 21px;
+}
+
+.heder_icon__search:hover {
+	transform: scale(1.2);
+}
