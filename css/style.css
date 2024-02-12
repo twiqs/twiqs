@@ -83,7 +83,7 @@ body {
     line-height: 19px;
     color: #587793;
     width: 100%;
-    font-family: 'Roboto' 'Rochester';
+    font-family: "Roboto", "Rochester";
 }
 
 .container {
@@ -604,6 +604,30 @@ header {
     width: 32px;
     height: 14px;
 }
+/* .explore */
+.explore{
+    /* padding: 0 22px; */
+}
+.explore_tit{
+    text-align: left;
+    padding-bottom: 60px;
+}
+.explore_card{
+    max-height: 521px;
+}
+.explore_txt{
+padding: 19px 0;
+background: #CAF91D;
+text-align: center;
+font-size: 23px;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.explore_txt-blue{
+    background: #587793;
+    color: #CAF91D ;
 
 .top_footer {
     width: 1382.41px;
