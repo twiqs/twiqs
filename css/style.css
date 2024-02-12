@@ -155,9 +155,7 @@ section {
     transition: 0.3s;
 }
 
-.link:hover {
-    box-shadow: 0px 6px 5px 2px #836A36;
-}
+
 
 .flex {
     display: flex;
@@ -613,6 +611,70 @@ header {
     left: 28.8px;
     padding: 0px, 0px, 0px, 0.2px
 }
-footer{
+
+.footer {
     background: #587793;
+    padding: 25px;
+}
+
+
+/* footer */
+footer {
+	background:#587793;
+	padding: 25px;
+}
+
+.footer_main-info {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.logo_blue img {
+	width: 135px;
+	height: 55px;
+}
+
+.social {
+	gap: 10px;
+	display: inline-flex;
+}
+
+.social a,
+.link li a {
+	font-family: "Roboto";
+	color: #FFF;
+	transition: 1s;
+	display: block;
+	font-size: 15px;
+	margin: 15px 0;
+
+
+}
+
+.social a:hover {
+	border-bottom: 1px solid #FFF;
+}
+
+.confident {
+	display: flex;
+
+}
+
+.line {
+	border-bottom: #2723D3 1px solid;
+	width: 95%;
+	margin: 15px 0;
+}
+
+.link {
+	width: calc(100% / 4.2);
+	gap: 65px;
+}
+
+.links {
+	margin-bottom: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
 }
