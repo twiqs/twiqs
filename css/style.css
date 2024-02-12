@@ -553,15 +553,17 @@ header {
     color: #587793;
     text-transform: uppercase;
 }
+
 /* .inspiration */
 /* .inspiration{
     padding-bottom: 00px;
 } */
-.inspiration_left{
+.inspiration_left {
     max-width: 504px;
     padding-left: 30px;
 }
-.inspiration_right{
+
+.inspiration_right {
     background: url(../img/icons/inspiration_right.jpg) center no-repeat;
     width: 576px;
     height: 506px;
@@ -583,13 +585,15 @@ header {
     text-align: left;
     color: #587793;
 }
-.insp_txt{
+
+.insp_txt {
     padding-bottom: 30px;
 }
+
 .inspiration_btn {
-    color: #587793 ;
-   max-width: 192px;
-   padding: 10px;
+    color: #587793;
+    max-width: 192px;
+    padding: 10px;
     border-radius: 40px;
     border: 2px solid #587793;
     gap: 15px;
@@ -598,7 +602,7 @@ header {
     margin: auto;
 }
 
-.inspiration_btn img{
+.inspiration_btn img {
     width: 32px;
     height: 14px;
 }
@@ -626,4 +630,13 @@ text-align: center;
 .explore_txt-blue{
     background: #587793;
     color: #CAF91D ;
+
+.top_footer {
+    width: 1382.41px;
+    height: 55px;
+    left: 28.8px;
+    padding: 0px, 0px, 0px, 0.2px
+}
+footer{
+    background: #587793;
 }
