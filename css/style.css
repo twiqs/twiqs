@@ -129,7 +129,7 @@ section {
 
 .btn {
     background: linear-gradient(93.7deg, #F3C87A -1.69%, #F3EECA 37.58%, #B39556 77.08%, #EED489 109.84%);
-    box-shadow: 0px 4px 0px #836A36;
+    /* box-shadow: 0px 4px 0px #836A36; */
     border-radius: 10px;
     font-weight: 800;
     font-size: 16px;
@@ -147,9 +147,9 @@ section {
     transition: 0.3s;
 }
 
-.btn:hover {
+/* .btn:hover {
     box-shadow: 0px 6px 5px 2px #836A36;
-}
+} */
 
 .link {
     transition: 0.3s;
@@ -421,10 +421,10 @@ header {
     color: #587793;
     margin-bottom: 8px;
 }
-
+/* 
 .our {
     margin-bottom: 153px;
-}
+} */
 
 /* beautiful */
 .beautiful_main {
@@ -497,10 +497,10 @@ header {
 .beautiful_right_text_button {
     width: 12px;
 }
-
+/* 
 .beautiful {
     margin-bottom: 119px;
-}
+} */
 
 /* led */
 
@@ -607,6 +607,31 @@ header {
     height: 14px;
 }
 
+/* .explore */
+.explore{
+    /* padding: 0 22px; */
+}
+.explore_tit{
+    text-align: left;
+    padding-bottom: 60px;
+}
+.explore_card{
+    max-height: 521px;
+}
+.explore_txt{
+padding: 19px 0;
+background: #CAF91D;
+text-align: center;
+font-size: 23px;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.explore_txt-blue{
+    background: #587793;
+    color: #CAF91D ;
+}
 .top_footer {
     width: 1382.41px;
     height: 55px;
