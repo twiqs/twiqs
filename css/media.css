@@ -41,18 +41,20 @@
 	}
 
 	.gives__tit {
-		margin-top: 15px;
 		margin: auto;
+		margin-top: 15px;
 		margin-bottom: 15px;
 	}
 
 	.gives__txt {
-		margin-top: 15px;
 		margin: auto;
+		margin-top: 15px;
 	}
-.gives__btn {
-	margin: auto;
-}
+
+	.gives__btn {
+		margin: auto;
+		margin-bottom: 170px;
+	}
 }
 
 @media screen and (max-width: 540px) {
