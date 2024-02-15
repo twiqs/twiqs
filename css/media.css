@@ -4,13 +4,19 @@
 	}
 	.navigation {
 		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.feedback {
+		margin: auto;
 	}
 }
 @media screen and (max-width: 990px) {
 	.container{
 		max-width: 750px;
 	}
-	
+	.gives__tit{
+		font-size: 45px;
+	}
 }
 @media screen and (max-width: 780px) {
 	.container{
@@ -24,8 +30,13 @@
 	.container{
 		max-width: 420px;
 	}
+	.navigation {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
 	.head_logo{
 		margin: auto;
+		margin-bottom: 10px;	
 	}
 }
 @media screen and (max-width: 450px) {
