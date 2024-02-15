@@ -24,6 +24,9 @@
 	.container{
 		max-width: 420px;
 	}
+	.head_logo{
+		margin: auto;
+	}
 }
 @media screen and (max-width: 450px) {
 	.container{
