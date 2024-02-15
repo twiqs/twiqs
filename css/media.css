@@ -85,6 +85,9 @@
 		margin: auto;
 		margin-bottom: 10px;
 	}
+	.seller_card{
+		margin-bottom: 10px;
+	}
 }
 
 @media screen and (max-width: 780px) {
