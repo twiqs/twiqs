@@ -81,11 +81,13 @@
 	.beautiful_main {
 		height: 460px;
 	}
-	.led_card{
+
+	.led_card {
 		margin: auto;
 		margin-bottom: 10px;
 	}
-	.seller_card{
+
+	.seller_card {
 		margin-bottom: 10px;
 	}
 }
@@ -137,14 +139,17 @@
 	.beautiful_main {
 		height: 816px;
 	}
+
 	.beautiful_left {
 		margin: auto;
 		margin-top: 10px;
 	}
+
 	.beautiful_right {
 		margin: auto;
 		margin-bottom: 10px;
 	}
+
 	.beautiful_main {
 		align-content: space-between;
 	}
@@ -175,6 +180,10 @@
 
 	.beautiful_left {
 		height: 0;
+	}
+
+	.led_card_txt {
+		font-size: 18px;
 	}
 }
 
