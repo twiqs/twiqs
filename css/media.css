@@ -16,6 +16,9 @@
 	.container{
 		max-width: 510px;
 	}
+	.header_icons {
+		margin: auto;
+	}
 }
 @media screen and (max-width: 540px) {
 	.container{
