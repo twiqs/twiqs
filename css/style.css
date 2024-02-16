@@ -83,7 +83,7 @@ body {
     line-height: 19px;
     color: #587793;
     width: 100%;
-    font-family: 'Roboto' 'Rochester';
+    font-family: "Roboto", "Rochester";
 }
 
 .container {
@@ -104,7 +104,7 @@ section {
 
 .sec_tit {
     font-family: Rochester;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 42px;
     line-height: 57px;
     text-align: center;
@@ -155,9 +155,9 @@ section {
     transition: 0.3s;
 }
 
-.link:hover {
+/* .link:hover {
     
-}
+} */
 
 .flex {
     display: flex;
@@ -234,7 +234,7 @@ header {
 
 .gives_left {
     /* padding: 0 0 0 35px; */
-    max-width: 50%;
+    max-width: 530px;
     align-items: flex-start;
 }
 
@@ -276,7 +276,7 @@ header {
     line-height: 25px;
     letter-spacing: 0em;
     color: #CAF91D;
-    padding: 9px 28px 0 27px;
+    padding: 9px 28px 9px 27px;
     transition: 0.3s;
 }
 
@@ -384,7 +384,7 @@ header {
 .seller___btn {
 
     width: 255px;
-    padding: 9px 28px 0 28px;
+    padding: 9px 28px 9px 28px;
 }
 
 .seller___btn_icon {
@@ -613,10 +613,11 @@ header {
 }
 .explore_tit{
     text-align: left;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 .explore_card{
     max-height: 521px;
+    transition: 0.7s;
 }
 .explore_txt{
 padding: 19px 0;
@@ -626,12 +627,52 @@ font-size: 23px;
 line-height: 35px;
 letter-spacing: 0em;
 text-align: center;
-
+transition: 0.7s;
 }
-.explore_txt-blue{
+.explore_card:hover .explore_txt{
     background: #587793;
     color: #CAF91D ;
+} 
+
+
+/* .explore_img {
+    position: relative;
+    overflow:hidden;
+    height:450px;
+ }
+ 
+ .explore_img img {
+    position: absolute;
+    top:99%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    height:300px;
+    object-fit:cover;
+ } */
+ .explore_card img {
+    width: 422px;
+    height: 521px;
+    margin-top: 65px;
 }
+/* .say_2_right{
+    position: relative;
+}
+.say_left{
+    position: relative;
+}
+.say_1_right-img{
+ position: absolute; 
+ width: 245px; 
+ height: 313px; 
+ left: 81.1%; 
+ right: 0%; 
+ top: -159.91px; 
+ /* bottom: 346.91px;  */
+}  */
+
+
+
 .top_footer {
     width: 1382.41px;
     height: 55px;
@@ -705,3 +746,37 @@ footer {
 	justify-content: center;
 	gap: 10px;
 }
+
+.circle{
+    padding: 20px 0;
+}
+.circle svg {
+    overflow: visible;
+    animation: circular-text-rotate 20s linear infinite;
+    max-width: 197px;
+margin-left: 550px;
+    color: #CAF91D;
+  }
+  .circle svg:hover {
+    animation-play-state: running;
+  }
+  .circle path {
+    fill: none;
+  }
+  .circle text {
+    fill:#CAF91D;
+    opacity: 0.5;
+  }
+@keyframes circular-text-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
