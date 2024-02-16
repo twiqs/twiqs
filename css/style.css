@@ -710,10 +710,11 @@ footer {
     display: inline-flex;
 }
 
-.social a,
-.link li a {
+.social ,
+.link li  {
     font-family: "Roboto";
-    color: #FFF;
+    color: #CAF91D;
+
     transition: 1s;
     display: block;
     font-size: 15px;
@@ -724,6 +725,9 @@ footer {
 
 .social a:hover {
     border-bottom: 1px solid #FFF;
+}
+.social a {
+    color: fff;
 }
 
 .confident {
