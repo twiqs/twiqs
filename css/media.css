@@ -1,0 +1,203 @@
+@media screen and (max-width: 1300px) {
+	.container {
+		max-width: 960px;
+	}
+
+	.navigation {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.feedback {
+		margin: auto;
+	}
+
+	.seller_main {
+		margin: auto;
+	}
+
+	.seller_card {
+		margin: auto;
+		/* margin-right: 5px; */
+	}
+
+	.beautiful_left {
+		width: 427px;
+	}
+
+	.beautiful_stars {
+		margin-top: 180px;
+	}
+
+	.beautiful__tit {
+		margin-top: 50px;
+	}
+
+	.beautiful_main {
+		height: 560px;
+	}
+
+}
+
+@media screen and (max-width: 990px) {
+	.container {
+		max-width: 750px;
+	}
+
+	.gives__tit {
+		font-size: 45px;
+	}
+
+	.gives__txt {
+		font-size: 12px;
+	}
+
+	.beautiful_left {
+		width: 310px;
+	}
+
+	.beautiful__tit {
+		max-width: 243px;
+		font-size: 23px;
+		margin-bottom: 36px;
+	}
+
+	.beautiful_stars {
+		width: 15px;
+	}
+
+	.beautiful__tit_bottom {
+		font-size: 10px;
+	}
+
+	.beautiful_right_text_buttons {
+		width: 38px;
+	}
+
+	.beautiful_right_text_button {
+		width: 10px;
+	}
+
+	.beautiful_main {
+		height: 460px;
+	}
+
+	.led_card {
+		margin: auto;
+		margin-bottom: 10px;
+	}
+
+	.seller_card {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.container {
+		max-width: 510px;
+	}
+
+	.header_icons {
+		margin: auto;
+	}
+
+	.gives_left {
+		max-width: 100%;
+	}
+
+	.gives__tit {
+		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		max-width: 370px;
+		text-align: center;
+	}
+
+	.gives__txt {
+		margin: auto;
+		margin-top: 15px;
+	}
+
+	.gives__btn {
+		margin: auto;
+		margin-bottom: 170px;
+	}
+
+	.our__btn {
+		margin: auto;
+		float: none;
+	}
+
+	.feedback_txt {
+		font-size: 13px;
+	}
+
+	.feedback {
+		width: 525px;
+	}
+
+	.beautiful_main {
+		height: 816px;
+	}
+
+	.beautiful_left {
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	.beautiful_right {
+		margin: auto;
+		margin-bottom: 10px;
+	}
+
+	.beautiful_main {
+		align-content: space-between;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.container {
+		max-width: 420px;
+	}
+
+	.navigation {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.head_logo {
+		margin: auto;
+		margin-bottom: 10px;
+	}
+
+	.feedback {
+		width: 431px;
+	}
+
+	.feedback_txt {
+		font-size: 11px;
+	}
+
+	.beautiful_left {
+		height: 0;
+	}
+
+	.led_card_txt {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.feedback_stars {
+		width: 120px;
+		margin-top: 5px;
+	}
+
+	.feedback {
+		width: 401px;
+	}
+}
