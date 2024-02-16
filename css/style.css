@@ -387,9 +387,9 @@ header {
     padding: 9px 28px 9px 28px;
 }
 
-.seller___btn_icon {
+/* .seller___btn_icon {
     margin-top: 5px;
-}
+} */
 
 
 .seller_card {
@@ -544,6 +544,7 @@ header {
 .led___btn {
     margin: auto;
     width: 157px;
+    align-items: center ;
 }
 
 .sec_sub {
@@ -676,7 +677,11 @@ header {
  right: 0%; 
  top: -159.91px; 
  /* bottom: 346.91px;  */
-*/ .top_footer {
+
+
+
+
+.top_footer {
     width: 1382.41px;
     height: 55px;
     left: 28.8px;
@@ -787,19 +792,4 @@ footer {
     to {
         transform: rotate(360deg);
     }
-}
-
-.animation {
-    transition: 0.7s;
-}
-
-.animation:hover {
-    transform: scale(1.05);
-}
-.animation_sell {
-    transition: 0.7s;
-}
-
-.animation_sell:hover {
-    transform: scale(1.07);
 }
