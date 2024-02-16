@@ -153,6 +153,16 @@
 	.beautiful_main {
 		align-content: space-between;
 	}
+	.explore_tit{
+		text-align: center;
+	}
+	.explore_card{
+		max-height: none;
+		margin: 0 auto;
+	}
+	.say_img{
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 540px) {
