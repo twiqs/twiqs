@@ -655,6 +655,25 @@ transition: 0.7s;
     height: 521px;
     margin-top: 65px;
 }
+.say_2_right
+{
+
+}
+.say_left{
+    position: relative;
+}
+.say_1_right-img{
+ position: absolute; 
+ width: 245px; 
+ height: 313px; 
+ left: 81.1%; 
+ right: 0%; 
+ top: -159.91px; 
+ bottom: 346.91px; 
+} 
+
+
+
 .top_footer {
     width: 1382.41px;
     height: 55px;
