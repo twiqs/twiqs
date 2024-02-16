@@ -90,6 +90,13 @@
 	.seller_card {
 		margin-bottom: 10px;
 	}
+	.inspiration_left{
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+	.inspiration_right{
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 780px) {
@@ -152,6 +159,16 @@
 
 	.beautiful_main {
 		align-content: space-between;
+	}
+	.explore_tit{
+		text-align: center;
+	}
+	.explore_card{
+		max-height: none;
+		margin: 0 auto;
+	}
+	.say_img{
+		margin: 0 auto;
 	}
 }
 
