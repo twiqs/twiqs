@@ -387,9 +387,9 @@ header {
     padding: 9px 28px 9px 28px;
 }
 
-.seller___btn_icon {
+/* .seller___btn_icon {
     margin-top: 5px;
-}
+} */
 
 
 .seller_card {
@@ -544,6 +544,7 @@ header {
 .led___btn {
     margin: auto;
     width: 157px;
+    align-items: center ;
 }
 
 .sec_sub {
