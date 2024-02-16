@@ -90,6 +90,13 @@
 	.seller_card {
 		margin-bottom: 10px;
 	}
+	.inspiration_left{
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+	.inspiration_right{
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 780px) {
