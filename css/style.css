@@ -763,7 +763,9 @@ footer {
     overflow: visible;
     animation: circular-text-rotate 20s linear infinite;
     max-width: 197px;
-    margin-left: 550px;
+    /* margin-left: 550px; */
+    margin: auto;
+    display: block;
     color: #CAF91D;
 }
 
